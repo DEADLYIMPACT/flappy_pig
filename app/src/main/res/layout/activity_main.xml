@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/coin1"
+        android:layout_width="32.8dp"
+        android:layout_height="32.8dp"
+        android:background="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/coin2"
+        android:layout_width="32.8dp"
+        android:layout_height="32.8dp"
+        android:background="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/coin3"
+        android:layout_width="32.8dp"
+        android:layout_height="32.8dp"
+        android:background="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/coin4"
+        android:layout_width="32.8dp"
+        android:layout_height="32.8dp"
+        android:background="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/coin5"
+        android:layout_width="32.8dp"
+        android:layout_height="32.8dp"
+        android:background="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/coin6"
+        android:layout_width="32.8dp"
+        android:layout_height="32.8dp"
+        android:background="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/coin7"
+        android:layout_width="32.8dp"
+        android:layout_height="32.8dp"
+        android:background="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/coin8"
+        android:layout_width="32.8dp"
+        android:layout_height="32.8dp"
+        android:background="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/displayCoin"
+        android:layout_width="41.1dp"
+        android:layout_height="41.1dp"
+        android:layout_below="@+id/pause"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/layout1"
+        android:background="@drawable/coin"
+        android:elevation="2dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/coinScore"
+        android:layout_width="match_parent"
+        android:layout_height="41.1dp"
+        android:layout_alignTop="@+id/displayCoin"
+        android:layout_toLeftOf="@id/displayCoin"
+        android:elevation="2dp"
+        android:fontFamily="@font/font1"
+        android:gravity="right"
+        android:includeFontPadding="false"
+        android:paddingRight="10dp"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="15"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="41.1dp"
+        tools:ignore="RtlHardcoded" />
+
+
+    <ImageView
+        android:id="@+id/gameover"
+        android:layout_width="399dp"
+        android:layout_height="180dp"
+        android:layout_above="@id/score2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/flappypig2" />
+
+    <LinearLayout
+        android:layout_width="196.2dp"
+        android:layout_height="78.7dp"
+        android:layout_alignTop="@id/startLl"
+        android:layout_toLeftOf="@+id/startLl"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/shop"
+            android:layout_width="146.2dp"
+            android:layout_height="58.7dp"
+            android:background="@drawable/shop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel2"
+            android:text="@string/shop_lobby"
+            android:id="@+id/shop_sign"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="176.2dp"
+        android:layout_height="78.7dp"
+        android:layout_alignTop="@id/startLl"
+        android:layout_toRightOf="@+id/startLl"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/stats"
+            android:layout_width="146.2dp"
+            android:layout_height="58.7dp"
+            android:background="@drawable/stats" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel2"
+            android:text="@string/stats_lobby"
+            android:id="@+id/stats_sign"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="58.7dp"
+        android:layout_height="58.7dp"
+        android:layout_above="@+id/startLl"
+        android:layout_toLeftOf="@+id/layout1"
+        android:background="@drawable/settings_vector"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="58.7dp"
+        android:layout_height="58.7dp"
+        android:layout_above="@+id/startLl"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/layout2"
+        android:background="@drawable/help"
+        android:padding="5dp" />
+
+
+    <ImageView
+        android:id="@+id/layout1"
+        android:layout_width="41.1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/black"
+        android:elevation="2dp"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/layout2"
+        android:layout_width="41.1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/black"
+        android:elevation="2dp"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/control"
+        android:layout_width="41.1dp"
+        android:layout_height="36.55dp"
+        android:background="@drawable/rect"
+        android:elevation="4dp"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="41.1dp"
+        android:layout_height="41.1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/layout1"
+        android:background="@drawable/pause"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:elevation="2dp"
+        android:fontFamily="@font/pixel2"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="30"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="75dp" />
+
+    <TextView
+        android:id="@+id/score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startLl"
+        android:layout_centerHorizontal="true"
+        android:elevation="2dp"
+        android:fontFamily="@font/pixel2"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="30"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="75dp" />
+
+    <LinearLayout
+        android:id="@+id/startLl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/highscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:fontFamily="@font/pixel2"
+            android:paddingBottom="10dp"
+            android:shadowColor="@android:color/white"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="184.5dp"
+            android:layout_height="82.2dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/startbutton1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ob1"
+        android:layout_width="73.1dp"
+        android:layout_height="400dp"
+        android:background="@drawable/pipe" />
+
+    <ImageView
+        android:id="@+id/ob2"
+        android:layout_width="73.1dp"
+        android:layout_height="400dp"
+        android:background="@drawable/pipe2" />
+
+    <ImageView
+        android:id="@+id/ob3"
+        android:layout_width="73.1dp"
+        android:layout_height="400dp"
+        android:background="@drawable/pipe" />
+
+    <ImageView
+        android:id="@+id/ob4"
+        android:layout_width="73.1dp"
+        android:layout_height="400dp"
+        android:background="@drawable/pipe2" />
+
+    <ImageView
+        android:id="@+id/ob5"
+        android:layout_width="73.1dp"
+        android:layout_height="400dp"
+        android:background="@drawable/pipe" />
+
+    <ImageView
+        android:id="@+id/ob6"
+        android:layout_width="73.1dp"
+        android:layout_height="400dp"
+        android:background="@drawable/pipe2" />
+
+    <ImageView
+        android:id="@+id/ob7"
+        android:layout_width="73.1dp"
+        android:layout_height="400dp"
+        android:background="@drawable/pipe" />
+
+    <ImageView
+        android:id="@+id/ob8"
+        android:layout_width="73.1dp"
+        android:layout_height="400dp"
+        android:background="@drawable/pipe2" />
+
+    <ImageView
+        android:id="@+id/pig"
+        android:layout_width="45dp"
+        android:layout_height="36.55dp"
+        android:background="@drawable/pig" />
+
+</RelativeLayout>

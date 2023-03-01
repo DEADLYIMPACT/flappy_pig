@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1004604139283",
+    "firebase_url": "https://flappy-pig-cad4c.firebaseio.com",
+    "project_id": "flappy-pig-cad4c",
+    "storage_bucket": "flappy-pig-cad4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004604139283:android:2b74fec55655e0e66c5ce6",
+        "android_client_info": {
+          "package_name": "com.game.flappypig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004604139283-qjq01me1d61n77s68gic7319g6elcp58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6oxkhy5jrCE68pkpC09ZwyW34G2oGOSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004604139283-qjq01me1d61n77s68gic7319g6elcp58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

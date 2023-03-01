@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flappy Pig</string>
+    <string name="new_high_score">НОВЫЙ РЕКОРД!</string>
+    <string name="zero">0</string>
+    <string name="stats">СТАТИСТИКА</string>
+    <string name="stats_lobby">(СТАТИСТИКА)</string>
+    <string name="shop_lobby">(МАГАЗИН ПРЕДМЕТОВ)</string>
+    <string name="instructions">Здравствуйте! Добро пожаловать в мир Flappy Pig. \nИспользуйте белый квадрат справа, чтобы управлять свиньей. \nНе бей по трубам! Получите как можно больше очков! \nИ не забывайте собирать эти монеты! \nКнопка магазина открывает магазин. Используйте монеты, чтобы покупать скины в магазине. \nКнопка статистики открывает вашу статистику. \nКнопка настроек открывает настройки, в которых вы можете изменить фон, громкость и язык. \nКнопка справки открывает эти инструкции. \nВы можете приостановить игру в любой момент, нажав кнопку паузы в правом верхнем углу. \nСуществуют два бонуса - \n\t\tМагнит - притягивайте к себе монеты с удвоенной скоростью. \n\t\tРывок - получить невероятную скорость и непобедимость на некоторое время. \nНа этом все инструкции, удачи! Радоваться, веселиться!</string>
+    <string name="message">Разработчик Flappy Pig выпустил новую игру: Viper! Если вам нравится эта игра, попробуйте Viper в Google Play, нажав кнопку ниже!</string>
+    <string name="buy_skin">КУПИТЬ СКИН</string>
+    <string name="instructions_title">ИНСТРУКЦИИ</string>
+    <string name="settings">НАСТРОЙКИ</string>
+    <string name="change_background_color">ИЗМЕНИТЬ ЦВЕТ ФОНА</string>
+    <string name="change_control_side_right">ЗАМЕНА КОНТРОЛЯ СТОРОНЫ - ПРАВА</string>
+    <string name="change_control_side_left">СТОРОНА УПРАВЛЕНИЯ ЗАМЕНАМИ - СЛЕВА</string>
+    <string name="shop">МАГАЗИН</string>
+    <string name="message_title">НОВАЯ ИГРА - VIPER</string>
+    <string name="high_score">РЕКОРД -</string>
+    <string name="total_score">Общий счет -</string>
+    <string name="average">"В СРЕДНЕМ - "</string>
+    <string name="games_played">ИГР СЫГРАНО -</string>
+    <string name="coins">МОНЕТЫ -</string>
+    <string name="skin_NO">Не хватает монет, чтобы купить шкуру</string>
+    <string name="skin_YES">Удачно купил шкуру</string>
+    <string name="lang_change">изменение языка</string>
+    <string name="pig">Свинья</string>
+    <string name="ninja">ниндзя</string>
+    <string name="detective">детектив</string>
+    <string name="superpig">супер</string>
+    <string name="batpig">летучаямышь</string>
+    <string name="movie_pig">фильм</string>
+    <string name="witch">ведьма</string>
+    <string name="king">король</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flappy Pig</string>
+    <string name="new_high_score">NOVO RECORDE!</string>
+    <string name="stats">ESTATISTICAS</string>
+    <string name="stats_lobby">(ESTATISTICAS)</string>
+    <string name="shop_lobby">(LOJA DE ARTIGOS)</string>
+    <string name="instructions">Olá! Bem-vindo ao mundo do Flappy Pig. \nUse o quadrado branco à direita para controlar seu porco. \nNão bata nos canos! Consiga a maior pontuação que você puder! \nE não se esqueça de coletar essas moedas! \nO botão da loja abre a loja. Use moedas para comprar peles na loja. \nO botão de estatísticas abre suas estatísticas. \nO botão de configurações abre as configurações onde você pode alterar o fundo, volume e idioma. \nO botão de ajuda abre essas instruções. \nVocê pode pausar o jogo a qualquer momento usando o botão de pausa no canto superior direito. \nExistem dois powerups - \n\t\tÍmã - Atraia moedas em sua direção em velocidade dupla. \n\t\tRush - Ganhe velocidade extrema e invencibilidade por algum tempo. \nIsso é tudo para as instruções, boa sorte! Diverta-se!</string>
+    <string name="zero">0</string>
+    <string name="message">O desenvolvedor do Flappy Pig lançou um novo jogo: Viper! Se você gosta deste jogo, dê uma olhada no Viper no Google Play clicando no botão abaixo!</string>
+    <string name="buy_skin">COMPRAR PELE</string>
+    <string name="instructions_title">INSTRUÇÕES</string>
+    <string name="settings">CONFIGURAÇÕES</string>
+    <string name="change_background_color">ALTERAR COR DE FUNDO</string>
+    <string name="change_control_side_right">MUDAR O LADO DE CONTROLE - DIREITO</string>
+    <string name="change_control_side_left">MUDAR O LADO DE CONTROLE - ESQUERDO</string>
+    <string name="shop">FAZER COMPRAS</string>
+    <string name="message_title">NOVO JOGO - VIPER</string>
+    <string name="high_score">PONTUAÇÃO MÁXIMA -</string>
+    <string name="total_score">Pontuação total -</string>
+    <string name="average">MÉDIA -</string>
+    <string name="games_played">JOGOS JOGADOS -</string>
+    <string name="coins">MOEDAS -</string>
+    <string name="skin_NO">Você não tem moedas suficientes para comprar a pele</string>
+    <string name="skin_YES">Comprou a pele com sucesso</string>
+    <string name="lang_change">Mudar idioma</string>
+    <string name="pig">PORCO</string>
+    <string name="ninja">NINJA</string>
+    <string name="detective">DETETIVE</string>
+    <string name="superpig">SUPERPORCO</string>
+    <string name="batpig">BATPORCO</string>
+    <string name="movie_pig">FILME</string>
+    <string name="witch">BRUXA</string>
+    <string name="king">REI</string>
+</resources>

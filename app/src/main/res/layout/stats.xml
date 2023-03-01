@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_back"
+    android:gravity="center"
+    >
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:elevation="1dp"
+        android:id="@+id/closeStats"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/close" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:layout_margin="5dp"
+        android:id="@+id/statsLl"
+        android:paddingTop="7.5dp"
+        android:background="@drawable/popup_back"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/pixel2"
+            android:text="@string/stats"
+            android:textColor="@android:color/black"
+            android:textSize="35dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/pixel2"
+            android:id="@+id/hs"
+            android:text="@string/high_score"
+            android:textColor="@android:color/black"
+            android:textSize="17.5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/pixel2"
+            android:id="@+id/ts"
+            android:text="@string/total_score"
+            android:textColor="@android:color/black"
+            android:textSize="17.5dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/pixel2"
+            android:id="@+id/avg"
+            android:text="@string/average"
+            android:textColor="@android:color/black"
+            android:textSize="17.5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/pixel2"
+            android:id="@+id/gp"
+            android:text="@string/games_played"
+            android:textColor="@android:color/black"
+            android:textSize="17.5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel2"
+            android:text="@string/coins"
+            android:id="@+id/coins"
+            android:textColor="@android:color/black"
+            android:textSize="17.5dp" />
+    </LinearLayout>
+</RelativeLayout>

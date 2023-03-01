@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Flappy Pig</string>
+    <string name="new_high_score">NEW HIGH SCORE!</string>
+    <string name="zero">0</string>
+    <string name="stats">STATISTICS</string>
+    <string name="stats_lobby">(STATISTICS)</string>
+    <string name="shop_lobby">(ITEM SHOP)</string>
+    <string name="instructions">"Hello! Welcome to the world of Flappy Pig. \nUse the white square on the right to control your pig. \nDon't hit the pipes! Get the highest score you can! And don't forget to collect those coins! \nThe shop button opens the shop. Use coins to buy skins from the shop. \nThe stats button opens up your statistics. \nThe settings button opens the settings where you can change the background, volume and language. \nThe help button opens these instructions. \nYou can pause the game at any time using the pause button in the top right. \nTwo powerups exist -  \n\t\t\tMagnet - Attract coins towards you at double speed. \n\t\t\tRush - Gain extreme speed and invincibility for some time. \nThat's all for the instructions, Good Luck! Have Fun!"</string>
+    <string name="message">The developer of Flappy Pig has launched a new game: Viper! \n\nIf you enjoy this game, check Viper out on Google Play by clicking the button below!</string>
+    <string name="buy_skin">BUY SKIN</string>
+    <string name="instructions_title">INSTRUCTIONS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="change_background_color">CHANGE BACKGROUND COLOR</string>
+    <string name="change_control_side_right">CHANGE CONTROL SIDE - RIGHT</string>
+    <string name="change_control_side_left">CHANGE CONTROL SIDE - LEFT</string>
+    <string name="shop">SHOP</string>
+    <string name="message_title">NEW GAME - VIPER</string>
+    <string name="high_score">HIGH SCORE -</string>
+    <string name="total_score">Total score -</string>
+    <string name="average">AVERAGE -</string>
+    <string name="games_played">GAMES PLAYED -</string>
+    <string name="coins">COINS -</string>
+    <string name="skin_NO">You don\'t have enough coins to buy the skin</string>
+    <string name="skin_YES">Successfully bought the skin</string>
+    <string name="lang_change">Change language</string>
+    <string name="pig">PIG</string>
+    <string name="ninja">NINJA</string>
+    <string name="detective">DETECTIVE</string>
+    <string name="superpig">SUPERPIG</string>
+    <string name="batpig">BATPIG</string>
+    <string name="movie_pig">MOVIE</string>
+    <string name="witch">WITCH</string>
+    <string name="king">KING</string>
+</resources>
